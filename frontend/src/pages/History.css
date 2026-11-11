@@ -1,0 +1,61 @@
+.history-page {
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #eef5ff, #ffffff);
+    text-align: center;
+}
+
+.history-page h1 {
+    color: #173b70;
+    font-size: 32px;
+}
+
+.history-subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.history-list {
+    max-width: 700px;
+    margin: auto;
+}
+
+.history-card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.history-card h3 {
+    color: #d62828;
+    margin-bottom: 15px;
+}
+
+.history-card p {
+    margin: 10px 0;
+    color: #444;
+}
+
+.status {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.status.sent {
+    color: #e67e22;
+}
+
+.status.acknowledged {
+    color: #2980b9;
+}
+
+.status.resolved {
+    color: #27ae60;
+}
+
+.history-message {
+    color: #d62828;
+}
